@@ -1,2 +1,43 @@
 <?xml version="1.0"?>
-<settings/>
+<settings>
+    <permissionRule name="java.security.AllPermission" sourceType="Trusted" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="*" sourceType="Trusted" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="getClassLoader" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="getenv.*" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="exitVM.*" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="shutdownHooks" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="setFactory" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="setIO" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="modifyThread" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="stopThread" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="modifyThreadGroup" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="getProtectionDomain" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="getFileSystemAttributes" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="readFileDescriptor" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="writeFileDescriptor" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="writeFileDescriptor" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="accessClassInPackage.*" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="defineClassInPackage.*" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="accessDeclaredMembers" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="queuePrintJob" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="getStackTrace" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="setDefaultUncaughtExceptionHandler" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="preferences" sourceType="Any" permissionType="Grant"/>
+    
+    <permissionRule name="java.awt.AWTPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.io.FilePermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.io.SerializablePermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.reflect.ReflectPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.net.NetPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.net.SocketPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.sql.SQLPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.util.PropertyPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.util.logging.LoggingPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.net.ssl.SSLPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.security.auth.AuthPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.security.auth.PrivateCredentialPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.security.auth.kerberos.DelegationPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.security.auth.kerberos.ServicePermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.sound.sampled.AudioPermission" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="javax.sound.sampled.AudioPermission" sourceType="Any" permissionType="Grant"/>
+</settings>
