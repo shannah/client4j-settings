@@ -42,4 +42,6 @@
     <permissionRule name="javax.security.auth.kerberos.ServicePermission" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="javax.sound.sampled.AudioPermission" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="javax.sound.sampled.AudioPermission" sourceType="Any" permissionType="Grant"/>
+    
+    <source url="https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/" trust="true"/>
 </settings>
