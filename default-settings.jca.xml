@@ -3,6 +3,7 @@
     <permissionRule name="java.security.AllPermission" sourceType="Trusted" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="*" sourceType="Trusted" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="getClassLoader" sourceType="Any" permissionType="Grant"/>
+    <permissionRule name="java.lang.RuntimePermission" target="setContextClassLoader" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="getenv.*" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="exitVM.*" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="shutdownHooks" sourceType="Any" permissionType="Grant"/>
@@ -23,6 +24,7 @@
     <permissionRule name="java.lang.RuntimePermission" target="getStackTrace" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="setDefaultUncaughtExceptionHandler" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="java.lang.RuntimePermission" target="preferences" sourceType="Any" permissionType="Grant"/>
+    
     
     <permissionRule name="java.awt.AWTPermission" sourceType="Any" permissionType="Grant"/>
     <permissionRule name="java.io.FilePermission" sourceType="Any" permissionType="Grant"/>
