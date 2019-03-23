@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<libraries>
+    <!-- JAVAFX -->
+    <library name="javafx" platform="mac" version="11.0.2"
+        url="https://github.com/shannah/client4j-libs/raw/master/javafx/11.0.2/mac.zip"
+    />
+    <library name="javafx" platform="windows" version="11.0.2"
+        url="https://github.com/shannah/client4j-libs/raw/master/javafx/11.0.2/windows.zip"
+    />
+    <library name="javafx" platform="linux" version="11.0.2"
+        url="https://github.com/shannah/client4j-libs/raw/master/javafx/11.0.2/linux.zip"
+    />
+
+    <!-- CODENAME ONE -->
+    <library name="CodenameOne" version="0"
+        url="https://github.com/shannah/client4j-libs/raw/master/CodenameOne/latest/JavaSE.jar"
+    />
+</libraries>
