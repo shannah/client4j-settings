@@ -1,5 +1,11 @@
 <?xml version="1.0" ?>
 <runtimes>
+    
+    <runtime version="11.0.6+10" url="https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-macosx_x64.tar.gz" platform="mac" fx="true"/>
+    <runtime version="11.0.6+10" url="hhttps://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-win_i686.zip" platform="windows" arch="x86" fx="true"/>
+    <runtime version="11.0.6+10" url="https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-win_x64.zip" platform="windows" arch="x64" fx="true"/>
+    <runtime version="11.0.6+10" url="https://cdn.azul.com/zulu/bin/zulu11.37.17-ca-jdk11.0.6-linux_x64.tar.gz" platform="linux" fx="true"/>
+    
     <runtime version="11.0.2" url="https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x64_mac_hotspot_11.0.2_9.tar.gz" platform="mac"/>
     <runtime version="11.0.2" url="https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.2_9.zip" platform="windows" arch="x86"/>
     <runtime version="11.0.2" url="https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.2%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.2_9.zip" platform="windows" arch="x64"/>
