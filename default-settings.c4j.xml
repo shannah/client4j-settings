@@ -45,4 +45,5 @@
     <permissionRule name="java.net.URLPermission" sourceType="Any" permissionType="Grant"/>
     <source url="https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/" trust="true"/>
     <source url="https://github.com/shannah/client4j-libs/" trust="true"/>
+    <source url="https://cdn.azul.com/zulu/bin/" trust="true"/>
 </settings>
